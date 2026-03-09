@@ -1,9 +1,9 @@
 # ── Twitter / X ──────────────────────────────
-TWITTER_API_KEY=your_twitter_api_key
-TWITTER_API_SECRET=your_twitter_api_secret
-TWITTER_ACCESS_TOKEN=your_access_token
-TWITTER_ACCESS_SECRET=your_access_token_secret
-TWITTER_BEARER_TOKEN=your_bearer_token
+TWITTER_API_KEY=01VAGqEgCVirD1QiAYPuB1MoQ
+TWITTER_API_SECRET=A3Ilsuub0s0NS6qrYuMVcLmFKdw59ncIlQK1mzIe16c7lSzutt
+TWITTER_ACCESS_TOKEN=1775253305452838912-XkkA8cECYul6QUasJEHB8qXrPnt93I
+TWITTER_ACCESS_SECRET=dn3YJOZZtNjY1YlSiZmlxfMtc4i1Z7kzdAXZIIwkw5ryR
+TWITTER_BEARER_TOKEN=AAAAAAAAAAAAAAAAAAAAABWY8AEAAAAAY3OHMB4B7gq%2FTxI6qEJgP8cNXXw%3DnYzDMNilxT3OPd6466s86FjNSTurhGgdYcOyykGkdOpn5ic5nK
 
 # ── Telegram ─────────────────────────────────
 TELEGRAM_BOT_TOKEN=your_telegram_bot_token
