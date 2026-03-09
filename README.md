@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Twitter](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fgithub.com%2Ftech-indro%2Fsocial-media-ai-agent)](https://twitter.com/intent/tweet?text=Check%20out%20this%20awesome%20AI%20agent%20for%20social%20media%20engagement!&url=https://github.com/tech-indro/social-media-ai-agent)
 
-An intelligent AI agent that automatically engages with your social media audience daily, sparking conversations about AI, Robotics, Space, and Climate Change.
+Swara is an intelligent AI agent that automatically engages with your social media audience daily, sparking conversations about AI, Robotics, Space, and Climate Change.
 
 ## 🎯 Features
 
@@ -27,6 +27,7 @@ An intelligent AI agent that automatically engages with your social media audien
 - Python 3.9+
 - Twitter Developer Account ([Get it here](https://developer.twitter.com/))
 - NewsAPI Key ([Get it here](https://newsapi.org/))
+- twitterAPI key([Get it here](https://twitter.com/)
 - (Optional) Telegram Bot Token
 
 ### Installation
