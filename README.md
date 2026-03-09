@@ -25,7 +25,7 @@ Swara is an intelligent AI agent that automatically engages with your social med
 ### Prerequisites
 
 - Python 3.9+
-- Twitter Developer Account ([Get it here](https://developer.twitter.com/))
+- Twitter Developer Account ([Get it here](https://console.x.com/accounts/2031051090775748609/))
 - NewsAPI Key ([Get it here](https://newsapi.org/))
 - twitterAPI key([Get it here](https://twitter.com/)
 - (Optional) Telegram Bot Token
