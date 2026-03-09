@@ -1,0 +1,28 @@
+{
+  "topics": [
+    {
+      "name": "Artificial Intelligence",
+      "emoji": "🧠",
+      "hashtags": ["#AI", "#ArtificialIntelligence", "#MachineLearning", "#TechTalk"],
+      "keywords": ["AI", "machine learning", "neural network", "GPT", "LLM", "AGI"]
+    },
+    {
+      "name": "Robotics",
+      "emoji": "🦾",
+      "hashtags": ["#Robotics", "#Automation", "#FutureOfWork", "#Tech"],
+      "keywords": ["robot", "automation", "autonomous", "drone", "mechanical"]
+    },
+    {
+      "name": "Space Exploration",
+      "emoji": "🚀",
+      "hashtags": ["#Space", "#SpaceExploration", "#NASA", "#Mars", "#SciFi"],
+      "keywords": ["space", "NASA", "Mars", "rocket", "satellite", "moon", "astronaut"]
+    },
+    {
+      "name": "Climate Change",
+      "emoji": "🌍",
+      "hashtags": ["#ClimateChange", "#ClimateAction", "#Sustainability", "#GreenTech"],
+      "keywords": ["climate", "carbon", "emission", "renewable", "solar", "green energy"]
+    }
+  ]
+}
