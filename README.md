@@ -34,6 +34,6 @@ Swara is an intelligent AI agent that automatically engages with your social med
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/tech-indro/social-media-ai-agent.git
+git clone https://github.com/techindro/Swara-ai-agent.git
 cd social-media-ai-agent
 ```
