@@ -26,3 +26,4 @@ Thank you for your interest in contributing! 🎉
 - Use type hints
 - Add docstrings to all public functions
 - Run `black` and `flake8` before committing
+
