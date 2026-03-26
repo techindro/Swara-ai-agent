@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 set -e
-
 echo "🤖 Setting up Social Media AI Agent..."
 
 # Check Python version
