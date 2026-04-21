@@ -1,5 +1,4 @@
 name: Daily Social Media Agent
-
 on:
   schedule:
     - cron: '30 3 * * *'   # 09:00 IST = 03:30 UTC
