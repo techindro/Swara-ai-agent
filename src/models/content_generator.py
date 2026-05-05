@@ -1,5 +1,5 @@
-"""Generates questions, replies, and content for social media."""
-
+# Content generation engine. 
+# Pulls news context from NewsAPI to make the AI questions relevant.
 import json
 import random
 from pathlib import Path
@@ -19,7 +19,7 @@ TOPIC_EMOJIS = {
 
 
 class ContentGenerator:
-    """Generates all social media content using AI + news context."""
+    """Core logic for generating posts, threads, and replies."""
 
     def __init__(self):
         self.ai = AIModel()
@@ -30,7 +30,7 @@ class ContentGenerator:
     def _load_question_templates(self):
         templates_path = Path("src/data/questions.json")
         if templates_path.exists():
-            with open(templates_path) as f:
+            with open(templates_path, encoding='utf-8') as f:
                 self.templates = json.load(f)
         else:
             self.templates = {}
@@ -52,7 +52,7 @@ class ContentGenerator:
             ]
             return " | ".join(headlines[:2]) if headlines else ""
         except Exception as e:
-            logger.warning(f"News fetch failed: {e}")
+            logger.warning(f"News fetch skipped or failed: {e}")
             return ""
 
     async def generate_question(self) -> str:

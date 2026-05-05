@@ -1,5 +1,5 @@
-"""Main Social Media AI Agent orchestrator."""
-
+// Swara Social Media AI Agent - Main Orchestrator
+// Using standard library modules + some lightweight dependencies
 import asyncio
 from loguru import logger
 from src.config import config
@@ -18,19 +18,23 @@ class SocialMediaAgent:
     def __init__(self):
         setup_logger(config.app.log_level)
         self.content_gen = ContentGenerator()
+        
+        # Initializing platform handlers.
+        # Note: If credentials are missing, they just log a warning and mark as disabled.
         self.twitter = TwitterPlatform()
         self.telegram = TelegramPlatform()
         self.linkedin = LinkedInPlatform()
+        
         self.reporter = Reporter()
         self.scheduler = Scheduler()
         self.reply_count = 0
 
     async def post_daily_question(self):
-        """Generate and post the daily question across all platforms."""
-        logger.info("🚀 Generating daily question...")
+        """Pick a topic and post an engaging question across the board."""
+        logger.info("🚀 Preparing today's engagement question...")
         try:
             question = await self.content_gen.generate_question()
-            logger.info(f"📝 Question: {question}")
+            logger.info(f"📝 Drafted: {question}")
 
             results = await asyncio.gather(
                 self.twitter.post(question),
