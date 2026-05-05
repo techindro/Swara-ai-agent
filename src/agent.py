@@ -1,5 +1,5 @@
-// Swara Social Media AI Agent - Main Orchestrator
-// Using standard library modules + some lightweight dependencies
+# Swara Social Media AI Agent - Main Orchestrator
+# Using standard library modules + some lightweight dependencies
 import asyncio
 from loguru import logger
 from src.config import config
